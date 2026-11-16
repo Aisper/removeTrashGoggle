@@ -1,0 +1,10 @@
+! name: Clean Gaming Search
+! description: Remove Fextralife and downrank Fandom
+! public: false
+! author: Personal
+
+! Completely exclude Fextralife
+$discard,site=fextralife.com
+
+! Strongly downrank Fandom, but retain results when relevant
+$downrank=7,site=fandom.com
